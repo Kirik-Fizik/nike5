@@ -1,0 +1,176 @@
+{
+    "men" : [
+        {
+            "id": 1,
+            "title": "Nike Air Force 1'07",
+            "cost": 115,
+            "tag": "Walking",
+            "description": "The radiance lives on in the Nike Air Force 1 ’07, the b-ball OG that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine."
+        },
+        {
+            "id": 2,
+            "title": "Nike Air Force 1'07 EasyOn",
+            "cost": 115,
+            "tag": "Walking",
+            "description": "Quicker than 1, 2, 3—the original hoops shoe lets you get going. This version of the AF1 features Nike EasyOn technology for a hands-free experience. The flexible heel collapses when you step in then snaps back into place, making it easy to slip on and off. Add that to its clean, crisp leather and you've got ultimate wearability. Yeah, it's everything you love and then some."
+        },
+        {
+            "id": 3,
+            "title": "Air Jordan 1 Retro High Og",
+            "cost": 180,
+            "tag": "Basketball",
+            "description": "Classic, original, remastered. Ready to hit the streets with sophistication, this black-and-white AJ1 strikes an elegant balance in premium leather. Refined details, retro branding and a sleek white Swoosh bring it all together. Black tie optional."
+        },
+        {
+            "id": 4,
+            "title": "Air Jordan 1 Low SE",
+            "cost": 87.97,
+            "tag": "Lifestyle",
+            "description": "New colors and fresh textures give you an updated AJ1 without losing its iconic silhouette and familiar feel. Made from premium materials, this all-time favorite comes decked out with comfortable Nike Air cushioning and subtle design details (check out that embroidered heel) to give you a staple sneaker with a modern look."
+        },
+        {
+            "id": 5,
+            "title": "Ja 1 'Day'",
+            "cost": 120,
+            "tag": "Running",
+            "description": "Ja Morant became the superstar he is today by repeatedly sinking jumpers on crooked rims, jumping on tractor tires and dribbling through traffic cones in steamy South Carolina summers. The Ja 1 is a testament to his rise. With an Air Zoom unit, it supports bunny hops and hyper speed without sacrificing comfort, so that you can control your own destiny on the court, Ja-style."
+        },
+        {
+            "id": 6,
+            "title": "Nike Dunk Low Retro",
+            "cost": 115,
+            "tag": "Walking",
+            "description": "Recognizing the Dunk's roots as the top-ranking college team sneaker, the 'Be True To Your School' pack looks to the original ad campaign for inspiration. Colors represent top-flight universities, while crisp leather has the perfect amount of sheen to make 'em a hands-down win. So lace up and show off that varsity spirit. Ya game?"
+        },
+        {
+            "id": 7,
+            "title": "Nike Zoom Vomero 5",
+            "cost": 160,
+            "tag": "Lifestyle",
+            "description": "Carve a new lane for yourself in the Zoom Vomero 5—your go-to for complexity, depth and easy styling. The richly layered design includes textiles, leather and plastic accents that come together to make one of the coolest sneakers of the season."
+        },
+        {
+            "id": 8,
+            "title": "Nike Air Max Plus",
+            "cost": 180,
+            "tag": "Lifestyle",
+            "description": "Let your attitude have the edge with flame-like caging that adds heat to the streets while airy mesh keeps you cool. The Air Max Plus gives you a tuned Nike Air experience that offers premium stability and unbelievable cushioning."
+        },
+        {
+            "id": 9,
+            "title": "Nike Air Max Plus Drift",
+            "cost": 119.97,
+            "tag": "Lifestyle",
+            "description": "Let your attitude have the edge in the Air Max Plus Drift, a 'tuned' Air experience that offers premium stability and cushioning. Featuring airy mesh, gradient coloring and the original wavy design lines, it celebrates your defiant style."
+        },
+        {
+            "id": 10,
+            "title": "Nike Air Max 90",
+            "cost": 130,
+            "tag": "Running",
+            "description": "Lace up and feel the legacy in a champion running shoe that helped define the ‘90s. Worn by presidents, revolutionized through collabs and celebrated through rare colorways, its striking visuals, Waffle outsole and exposed Air cushioning keep the Air Max 90 alive and well."
+        },
+        {
+            "id": 11,
+            "title": "Jordan Spizike Low",
+            "cost": 160,
+            "tag": "Basketball",
+            "description": "The Spizike takes elements of five classic Jordans, combines them, and gives you one iconic sneaker. It's an homage to Spike Lee formally introducing Hollywood and hoops in a culture moment. You get a great looking pair of kicks with some history. What more can you ask for? Ya dig?"
+        },
+        {
+            "id": 12,
+            "title": "Air Jordan 4 Retro",
+            "cost": 215,
+            "tag": "Basketball",
+            "description": "Available 5/4 at 5:00 PM Step into a classic. The beloved AJ4 returns in premium Off-White leather, Neutral Grey nubuck and striking hits of Industrial Blue—creating an overall clean aesthetic. Staying true to form, we reengineered this icon back to its original ’89 specs with all the signature trimmings: a bold Jumpman logo, netting accents, the famous 'wings' and Nike Air branding on the heel to finish off the heritage appeal."
+        }
+    ],
+    "women" : [
+        {
+            "id": 1,
+            "title": "Nike Dunk Low",
+            "cost": 115,
+            "tag": "Walking",
+            "description": "Created for the hardwood but taken to the streets, the '80s b-ball icon returns with perfectly shined overlays and classic team colors. With its iconic hoops design, the Nike Dunk Low channels '80s vintage back onto the streets while its padded, low-cut collar lets you take your game anywhere—in comfort."
+        },
+        {
+            "id": 2,
+            "title": "Nike Dunk Low LX",
+            "cost": 135,
+            "tag": "Walking",
+            "description": "The '80s icon returns with classic materials and hoops flair. Channeling vintage style back onto the streets, its padded, low-cut collar lets you take your game anywhere—in comfort."
+        },
+        {
+            "id": 3,
+            "title": "Nike Dunk Low Next Nature SE",
+            "cost": 120,
+            "tag": "Walking",
+            "description": "The Dunk returns with classic construction, throwback hoops flair and seasonal colors. Channeling '80s style back onto the streets, its padded, low-cut collar lets you take your game anywhere—in comfort. Plus, this special edition includes metallic charms so you can personalize your kicks."
+        },
+        {
+            "id": 4,
+            "title": "Nike Free Metcon 5",
+            "cost": 120,
+            "tag": "Running",
+            "description": "When your workouts wade into the nitty gritty, the Nike Free Metcon 5 can meet you in the depths, help you dig deep to find that final ounce of force and come out of the other side on a high. It matches style with substance, forefoot flexibility with backend stability, perfect for flying through a cardio day or enhancing your agility. A revamped upper offers easier entry with a collar made just for your ankle."
+        },
+        {
+            "id": 5,
+            "title": "Nike Dunk High",
+            "cost": 130,
+            "tag": "Basketball",
+            "description": "Created for the hardwood but taken to the streets, the '80s b-ball icon returns with crisp leather and retro colors. The classic hoops design channels '80s vintage back onto the streets while the padded, high-top collar adds an old-school look rooted to comfort."
+        },
+        {
+            "id": 6,
+            "title": "Nike Blazer Mid '77",
+            "cost": 84.97,
+            "tag": "Lifestyle",
+            "description": "Styled for the ‘70s. Loved in the ‘80s. Classic in the ‘90s. Ready for the future. The Nike Blazer Mid ’77 delivers a timeless design that’s easy to wear. Its unbelievably crisp leather upper breaks in beautifully and pairs with bold retro branding and luscious suede accents for a premium feel. Exposed foam on the tongue and a special midsole finish make it look like you’ve just pulled them from the history books. Go ahead, perfect your outfit."
+        },
+        {
+            "id": 7,
+            "title": "Nike Air Max 90 Futura",
+            "cost": 150,
+            "tag": "Running",
+            "description": "Ready to take your style up a notch? We've reimagined an icon of Air to bring you the perfect mix of throwback details and futuristic design. Sawtooth edging around the outsole combines with smooth leather and partially floating Swoosh logos to deliver skillfully crafted luxury. Plush ankle padding and Max Air cushioning bring you first-class comfort. With a design that's sporty, playful and comfortable, these kicks are all about stepping into the future."
+        }
+    ],
+    "kids": [
+        {
+            "id": 1,
+            "title": "Nike Air Max Dn",
+            "cost": 130,
+            "tag": "Running",
+            "description": "Say hello to the next generation of Air technology. The Air Max Dn features our Dynamic Air unit system of dual-pressure tubes, creating a bouncy sensation with every step. This results in a futuristic design that's comfortable enough to wear all day. Go ahead—Feel the Unreal."
+        },
+        {
+            "id": 2,
+            "title": "Nike SB Day One",
+            "cost": 80,
+            "tag": "Walking",
+            "description": "Finally, a skate shoe made just for you! The Nike SB Day One is the first Nike skate shoe made from the ground up specifically for kids. Its skate-specific tread and Zoom Air unit help give you the grip and cushioning you need to keep pushing and trying new tricks. We added mesh up top to help make them breathable while durable suede overlays break in easily to help give you the flick and feel you love."
+        },
+        {
+            "id": 3,
+            "title": "Nike Air Force 1 LE",
+            "cost": 90,
+            "tag": "Walking",
+            "description": "This is what legends are made of. The Nike Air Force 1 LE brings back the ’82 hardwood icon into an everyday style in all-white or all-black. The durability, feel and Air are still there for those who love a classic."
+        },
+        {
+            "id": 4,
+            "title": "Air Jordan 4 Retro",
+            "cost": 160,
+            "tag": "Basketball",
+            "description": "Available 5/4 at 5:00 PM Since its debut in '89, the AJ4 keeps finding new ways to reinvent itself. This time, it's all about the splashes of deep blue on the upper. But don't worry—the tried-and-true features remain, like premium materials and lightweight Nike Air cushioning."
+        },
+        {
+            "id": 5,
+            "title": "Air Jordan 1 Mid",
+            "cost": 110,
+            "tag": "Lifestyle",
+            "description": "This iteration of the AJ1 reimagines Mike's first signature model with a fresh mix of colors. Premium materials, soft cushioning and a padded ankle collar offer total support and celebrate the shoe that started it all."
+        }
+    ]
+}
