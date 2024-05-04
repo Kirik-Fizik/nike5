@@ -40,7 +40,7 @@ const images = [[img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, im
 
 function App () {
   
-  const [bag, setBag] = React.useState(JSON.parse(localStorage.bag) || []);
+  const [bag, setBag] = React.useState([]);
 
   const addToBag = (sneaker, pol) => {
     let a = false;
@@ -66,8 +66,6 @@ function App () {
   const [visible, setVisible] = React.useState(false)
 
   React.useEffect(() => {
-    localStorage.bag = JSON.stringify(bag);
-    setBag(JSON.parse(localStorage.bag));
     setBagLength(bag.length);}, [bag]);
 
   return (
