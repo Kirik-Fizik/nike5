@@ -10,7 +10,7 @@ export default function Bag ({ bag, removeFromBag, images }) {
             <ul>
             {bag.map((item) => 
             <li className="in__bag__item">
-            <img src={images[Number(item.pol)][item.id - 1]} className="in__bag__image"></img>
+            <img src={images[Number(item.pol)][item.id - 1]} className="in__bag__image" alt="img"></img>
             <div className="in__bag__description">
                 <div>{item.title}</div>
                 <div>${item.cost}</div>

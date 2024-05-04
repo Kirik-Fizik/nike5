@@ -30,20 +30,20 @@ export default function Home({images}) {
             <Link className="home__link" to="/women"><div>Shop Women's New Arrivals</div></Link>
             <Link className="home__link" to="/men"><div>Shop Men's New Arrivals</div></Link>
             </div>
-            <img src={homeImg} className="home__img"></img>
+            <img src={homeImg} className="home__img" alt="img"></img>
             <div className="home__list__title">Shop by classics</div>
             <div className="home__list">
             <button onClick={decreaseId}>&larr;</button>
             <Link className="people__link" to={`/${0}/${men[id].title}`}>
-                <img src={images[0][id]} className="people__image"></img>
+                <img src={images[0][id]} className="people__image" alt="img"></img>
                 <div>{men[id].title}</div>
             </Link>
             <Link className="people__link" to={`/${1}/${women[id].title}`}>
-                <img src={images[1][id]} className="people__image"></img>
+                <img src={images[1][id]} className="people__image" alt="img"></img>
                 <div>{women[id].title}</div>
             </Link>
             <Link className="people__link" to={`/${2}/${kids[id].title}`}>
-                <img src={images[2][id]} className="people__image"></img>
+                <img src={images[2][id]} className="people__image" alt="img"></img>
                 <div>{kids[id].title}</div>
             </Link>
             <button onClick={increaseId}>&rarr;</button>

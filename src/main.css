@@ -39,7 +39,7 @@ header {
 .header__end {
     flex: 1;
     display: flex;
-    justify-content: end;
+    justify-content:flex-end;
 }
 .bag__logo {
     display: flex;
@@ -109,7 +109,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items:end;
+    align-items:flex-end;
     margin-top: 7em;
     margin-left: 7em;
 }

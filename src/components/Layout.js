@@ -6,7 +6,7 @@ function Layout ({bagLength}) {
     return (
         <>
         <header>
-            <div className='header__logo'><Link to='/'><img src={Swoosh}></img></Link></div>
+            <div className='header__logo'><Link to='/'><img src={Swoosh} alt="img"></img></Link></div>
             <div className='header__spisok'>
                 <div><Link className='header__item' to='/men'>Men</Link></div>
                 <div><Link className='header__item' to='/women'>Women</Link></div>

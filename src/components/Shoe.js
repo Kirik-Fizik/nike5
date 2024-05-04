@@ -22,7 +22,7 @@ export default function Shoe({images, addToBag, visible}) {
         </div>}
         <div className='shoe'>
             <div className='shoe__image__wrapper'>
-                <img src={images[Number(pol)][sneaker.id - 1]} className='shoe__image'></img>
+                <img src={images[Number(pol)][sneaker.id - 1]} className='shoe__image' alt="img"></img>
             </div>
             <div className='shoe__details'>
                 <div className='shoe__title'>{sneaker.title}</div>

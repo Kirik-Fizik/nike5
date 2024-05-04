@@ -46,7 +46,7 @@ export default function Spisok({ images, shoes, title, number }) {
                         
                             <li key={shoe.id} className="people__item">
                             <Link to={`/${number}/${shoe.title}`} className="people__link">
-                            <img src={images[number][shoe.id - 1]} className="people__image"></img>
+                            <img src={images[number][shoe.id - 1]} className="people__image" alt="img"></img>
                             <div>{shoe.title}</div>
                             <div>{shoe.tag}</div>
                             <div>${shoe.cost}</div>
