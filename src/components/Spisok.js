@@ -30,18 +30,21 @@ export default function Spisok({ images, shoes, title, number }) {
         setAmount(spisok.length)}, [spisok]);
 
     return (
-        <div className="people">
+        <React.Fragment>
+            <div className="people__title">{title} ({amount})</div>
+            <div className="people">
             <div className="people__filter">
+            <div className="people__filter__in">
                 <div onClick={sortShoesLife}>Lifestyle</div>
                 <div onClick={sortShoesWalk}>Walking</div>
                 <div onClick={sortShoesRun}>Running</div>
                 <div onClick={sortShoesBasket}>Basketball</div>
                 <div onClick={sortShoesAll}>All</div>
             </div>
+            </div>
+            <div className="people__spisok">
             <div>
-            <div className="people__title">{title} ({amount})</div>
-            <div>
-                <ul className="people__spisok">
+                <ul className="people__spisok__in">
                     {spisok.map((shoe) => (
                         
                             <li key={shoe.id} className="people__item">
@@ -57,5 +60,6 @@ export default function Spisok({ images, shoes, title, number }) {
             </div>
         </div>
         </div>
+        </React.Fragment>
     )
 }

@@ -39,6 +39,8 @@ const images = [[img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, im
 
 
 function App () {
+
+  const [sum, setSum] = React.useState(0);
   
   const [bag, setBag] = React.useState([]);
 
@@ -54,12 +56,14 @@ function App () {
       setBag([...bag, {"pol": pol, ...sneaker}]);
       setVisible(true);
       setTimeout(() => setVisible(false), 1500);
+      setSum(() => sum + sneaker.cost);
     } 
   } 
 
   const removeFromBag = (item) => {
     let newBag = bag.filter((el) => el !== item);
     setBag(newBag);
+    setSum(() => sum - item.cost);
   }
 
   const [bagLength, setBagLength] = React.useState(bag.length);
@@ -77,7 +81,7 @@ function App () {
         <Route path='women' element={<Women images={images}/>}/>
         <Route path='kids' element={<Kids images={images}/>}/>
         <Route path=":pol/:shoeName" element={<Shoe images={images} bag={bag} addToBag={addToBag} visible={visible}/>}/>
-        <Route path="bag" element={<Bag bag={bag} removeFromBag={removeFromBag} images={images}/>}></Route>
+        <Route path="bag" element={<Bag bag={bag} removeFromBag={removeFromBag} images={images} sum={sum}/>}></Route>
       </Route> 
     </Routes>
     </>
